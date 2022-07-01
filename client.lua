@@ -42,7 +42,7 @@ end,false)
 
 RegisterCommand('-ragdoll',function()
         if not IsPedInAnyVehicle(PlayerPedId(), false) then
-            ragdoll = true
+            ragdoll = false
         end
 end,false)
 
